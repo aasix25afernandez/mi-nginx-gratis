@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="description" content="Lista de discos que quiero conseguir — Aitor Fernandez">
+    <meta name="theme-color" content="#050505">
+    <title>Lista de Deseos · Aitor Fernandez</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Unbounded:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="icon" href="/img/favincon.png" type="image/png">
+
+    <link rel="stylesheet" href="wishlist.css">
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('./sw.js').catch(() => {});
+        }
+    </script>
+</head>
+<body>
+
+    <!-- Loader -->
+    <div class="loader" id="loader">
+        <div class="loader-icon"></div>
+        <div class="loader-text">Cargando...</div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-dot"></div>
+
+    <!-- Noise -->
+    <div class="noise"></div>
+
+    <!-- Nav -->
+    <nav id="main-nav">
+        <a href="/inicio/" class="logo">AFS</a>
+        <div class="nav-links">
+            <a href="index.html" class="nav-link">
+                <i class="fa-solid fa-record-vinyl"></i> Colección
+            </a>
+            <span class="nav-label-current">LISTA DE DESEOS</span>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="hero-bg">WISHLIST</div>
+        <h1>LISTA DE<br><span class="accent">DESEOS</span></h1>
+        <div id="wish-stats" class="wish-stats"></div>
+    </section>
+
+    <!-- TOP 3 -->
+    <section class="top3-section">
+        <div class="section-header">
+            <div class="section-label">
+                <i class="fa-solid fa-trophy"></i>
+                TOP 3 PRIORITARIOS
+            </div>
+            <p class="section-sub">Los discos que más quiero conseguir</p>
+        </div>
+        <div class="top3-grid" id="top3-grid">
+            <!-- renderizado por JS -->
+        </div>
+    </section>
+
+    <!-- DIVIDER -->
+    <div class="section-divider">
+        <span>LISTA COMPLETA</span>
+    </div>
+
+    <!-- CONTROLS -->
+    <section class="controls-bar">
+        <input type="text" id="wish-search" placeholder="Buscar en la lista..." autocomplete="off">
+        <select id="wish-filter-type">
+            <option value="">Todos los formatos</option>
+            <option value="lp">LP</option>
+            <option value="ep">EP</option>
+            <option value="single">Single</option>
+            <option value="cd">CD</option>
+        </select>
+        <select id="wish-sort">
+            <option value="priority">Prioridad</option>
+            <option value="price-asc">Precio (menor a mayor)</option>
+            <option value="price-desc">Precio (mayor a menor)</option>
+            <option value="title">Alfabético</option>
+            <option value="year">Por año</option>
+            <option value="artist">Por artista</option>
+        </select>
+        <div class="item-count" id="wish-count"></div>
+    </section>
+
+    <!-- WISHLIST -->
+    <section class="wishlist-container" id="wishlist-container">
+        <!-- renderizado por JS -->
+    </section>
+
+    <!-- EMPTY STATE -->
+    <div class="empty-wish hidden" id="empty-wish">
+        <i class="fa-solid fa-heart-crack"></i>
+        <p>No se encontraron discos</p>
+    </div>
+
+    <!-- SCROLL TOP -->
+    <button class="scroll-top-btn" id="scroll-top" title="Volver arriba">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <script src="wishlist.js"></script>
+</body>
+</html>

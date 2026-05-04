@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="description" content="Colección personal de vinilos de Aitor Fernandez. LP, EP, Singles y CDs de música rock, metal, y más.">
+    <meta name="theme-color" content="#050505">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>Colección Vinilos | Aitor Fernandez</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Unbounded:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="icon" href="/img/favincon.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('./sw.js').catch(() => {});
+        }
+    </script>
+</head>
+<body>
+
+    <div class="loader">
+        <div class="loader-icon"></div>
+        <div class="loader-text">Cargando...</div>
+    </div>
+
+    <div class="cursor"></div>
+    <div class="cursor-dot"></div>
+    <div class="noise"></div>
+
+    <nav>
+        <a href="/inicio/" class="logo">AFS</a>
+        <div class="nav-label">COLECCIÓN</div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-bg">VINILOS</div>
+        <h1>
+            COLECCIÓN<br>
+            <span class="accent">MÚSICA</span>
+        </h1>
+        <div id="counter" class="counter"></div>
+    </section>
+
+    <!-- WISHLIST PREVIEW ─────────────────── -->
+    <section class="wl-preview" id="wl-preview">
+        <div class="wl-preview-header">
+            <div class="wl-preview-left">
+                <span class="wl-eyebrow">
+                    <i class="fa-solid fa-heart"></i>
+                    Lista de Deseos
+                </span>
+                <h2 class="wl-preview-title">LO QUE <span>QUIERO</span></h2>
+                <p class="wl-preview-sub">Los 3 discos que más quiero conseguir</p>
+            </div>
+            <a href="wishlist.html" class="wl-preview-cta">
+                Ver lista completa
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+        </div>
+        <div class="wl-preview-grid" id="wl-preview-grid"></div>
+    </section>
+    <!-- ───────────────────────────────────── -->
+
+    <section class="controls">
+        <input type="text" id="search" placeholder="Buscar álbum o artista..." autocomplete="off">
+        <select id="artist-filter"><option value="">Todos los artistas</option></select>
+        <select id="year-filter"><option value="">Todos los años</option></select>
+        <select id="type-filter"><option value="">Todos los formatos</option></select>
+        <select id="sort">
+            <option value="obtained">Orden de adquisición</option>
+            <option value="title">Alfabético</option>
+            <option value="artist">Por artista</option>
+            <option value="year">Por año</option>
+        </select>
+    </section>
+
+    <section class="collection-grid" id="collection"></section>
+
+    <div class="modal" id="modal">
+        <div class="modal-content" id="modal-content"></div>
+    </div>
+
+    <script src="main.js"></script>
+
+    <!-- Wishlist preview -->
+    <script>
+    (async () => {
+        try {
+            const r = await fetch('wishlist.json');
+            if (!r.ok) throw new Error();
+            const data = await r.json();
+            const top3 = data
+                .filter(w => w.priority && w.priority <= 3)
+                .sort((a, b) => a.priority - b.priority)
+                .slice(0, 3);
+            if (!top3.length) { document.getElementById('wl-preview').style.display='none'; return; }
+            document.getElementById('wl-preview-grid').innerHTML = top3.map(w => `
+                <a href="wishlist.html" class="wlp-card">
+                    <div class="wlp-rank">${w.priority}</div>
+                    <div class="wlp-cover">
+                        <img src="${w.cover}" alt="${w.title}" loading="lazy" onerror="this.style.opacity='.2'">
+                    </div>
+                    <div class="wlp-body">
+                        <div class="wlp-title">${w.title}</div>
+                        <div class="wlp-artist">${w.artist}</div>
+                    </div>
+                    <div class="wlp-footer">
+                        <span class="wlp-price">${w.price||'—'}</span>
+                        ${w.shop?`<span class="wlp-shop"><i class="fa-solid fa-cart-shopping"></i>${w.shop}</span>`:''}
+                    </div>
+                </a>`).join('');
+        } catch(e) {
+            document.getElementById('wl-preview').style.display='none';
+        }
+    })();
+    </script>
+
+    <script>
+        document.addEventListener('contextmenu', e => { if(e.target.tagName==='IMG') e.preventDefault(); });
+        document.querySelectorAll('img').forEach(img => img.addEventListener('dragstart', e => e.preventDefault()));
+    </script>
+
+</body>
+</html>

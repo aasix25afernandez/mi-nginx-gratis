@@ -1,0 +1,876 @@
+[
+    {
+        "id": "la_ley_innata",
+        "title": "La Ley Innata",
+        "artist": "Extremoduro",
+        "year": 2008,
+        "type": "lp",
+        "cover": "https://a1.mzstatic.com/r40/Music/91/45/af/mzi.ohlfvbfi.jpg",
+        "tracks": [
+            { "code": "A1", "title": "Dulce Introducción Al Caos", "duration": "7:42", "ytId": "-byTiKtOrH4", "ytStart": 0 },
+            { "code": "A2", "title": "Primer Movimiento: El Sueño", "duration": "6:03", "ytId": "_vmFgtKf4D4", "ytStart": 0 },
+            { "code": "A3", "title": "Segundo Movimiento: Lo De Fuera", "duration": "11:43", "ytId": "2vuSCv_vCIk", "ytStart": 0 },
+            { "code": "B1", "title": "Tercer Movimiento: Lo De Dentro", "duration": "7:37", "ytId": "xHpqeQEcS3I", "ytStart": 0 },
+            { "code": "B2", "title": "Cuarto Movimiento: La Realidad", "duration": "5:49", "ytId": "WUIuGSARrzI", "ytStart": 0 },
+            { "code": "B3", "title": "Coda Flamenca (Otra Realidad)", "duration": "6:17", "ytId": "Pp-fw3jBa4U", "ytStart": 0 }
+        ]
+    },
+    {
+        "id": "back_in_black",
+        "title": "Back In Black",
+        "artist": "AC/DC",
+        "year": 1980,
+        "type": "lp",
+        "cover": "https://a1.mzstatic.com/r40/Music115/v4/1e/14/58/1e145814-281a-58e0-3ab1-145f5d1af421/886443673441.jpg",
+        "tracks": [
+            { "code": "A1", "title": "Hells Bells", "duration": "5:09", "ytId": "GL56LY6fE0E", "ytStart": 0 },
+            { "code": "A2", "title": "Shoot To Thrill", "duration": "5:14", "ytId": "wLoWd2KyUro", "ytStart": 0 },
+            { "code": "A3", "title": "What Do You Do For Money Honey", "duration": "3:33", "ytId": "yuvWF2I7BTI", "ytStart": 0 },
+            { "code": "A4", "title": "Givin The Dog A Bone", "duration": "3:30", "ytId": "ZjYjjLJtGpo", "ytStart": 0 },
+            { "code": "A5", "title": "Let Me Put My Love Into You", "duration": "4:12", "ytId": "Sd_gZlL_Mok", "ytStart": 0 },
+            { "code": "B1", "title": "Back In Black", "duration": "4:13", "ytId": "9vWNauaZAgg", "ytStart": 0 },
+            { "code": "B2", "title": "You Shook Me All Night Long", "duration": "3:28", "ytId": "SP9t2Iq_zQ8", "ytStart": 0 },
+            { "code": "B3", "title": "Have A Drink On Me", "duration": "3:57", "ytId": "dN61WU57zBw", "ytStart": 0 },
+            { "code": "B4", "title": "Shake A Leg", "duration": "4:03", "ytId": "ww40RmFNsNo", "ytStart": 0 },
+            { "code": "B5", "title": "Rock And Roll Ain't Noise Pollution", "duration": "4:12", "ytId": "lwRHkS912ks", "ytStart": 0 }
+        ]
+    },
+    {
+        "id": "iros_todos_a_tomar_por_culo",
+        "title": "Iros Todos A Tomar Por Culo",
+        "artist": "Extremoduro",
+        "year": 1997,
+        "type": "lp",
+        "cover": "https://a1.mzstatic.com/r40/Music/y2005/m05/d21/h11/s06.yigjygwk.jpg",
+        "tracks": [
+            { "code": "A1", "title": "Amor Castúo", "duration": "4:02", "ytId": "sgwGUXGw3P0", "ytStart": 0 },
+            { "code": "A2", "title": "Buscando Una Luna", "duration": "4:09", "ytId": "T_20VdAO7Ao", "ytStart": 0 },
+            { "code": "A3", "title": "De Acero", "duration": "3:44", "ytId": "zgFmyy8Y1Gw", "ytStart": 0 },
+            { "code": "A4", "title": "Correcaminos Estate Al Loro", "duration": "2:48", "ytId": "Rf8lIPpMIFk", "ytStart": 0 },
+            { "code": "B1", "title": "La Hoguera", "duration": "4:15", "ytId": "fClCevucIvE", "ytStart": 0 },
+            { "code": "B2", "title": "Jesucristo García", "duration": "6:31", "ytId": "y_oYZNPi_dM", "ytStart": 0 },
+            { "code": "B3", "title": "Tu Corazón", "duration": "5:06", "ytId": "C51fInnHy-c", "ytStart": 0 },
+            { "code": "B4", "title": "Bri, Bri, Bli, Bli (En El Más Sucio Rincón De Mi Negro Corazón)", "duration": "3:23", "ytId": "sG-spz74PbI", "ytStart": 0 },
+            { "code": "C1", "title": "Quemando Tus Recuerdos", "duration": "5:52", "ytId": "KLMdIW3Ln_M", "ytStart": 0 },
+            { "code": "C2", "title": "La Carrera", "duration": "2:33", "ytId": "tJ8r2ld-3dQ", "ytStart": 0 },
+            { "code": "C3", "title": "Deltoya", "duration": "5:45", "ytId": "Xyhj0v0XOIA", "ytStart": 0 },
+            { "code": "C4", "title": "Pepe Botika (¿Dónde Están Mis Amigos?)", "duration": "4:36", "ytId": "YN6O6vpMIFk", "ytStart": 0 },
+            { "code": "D1", "title": "Pedrá (Fragmento)", "duration": "11:21", "ytId": "IBF1ANYhpBQ", "ytStart": 0 },
+            { "code": "D2", "title": "Ama, Ama, Ama Y Ensancha El Alma", "duration": "6:04", "ytId": "vwpBKgf5HJQ", "ytStart": 0 }
+        ]
+    },
+    {
+        "id": "rumours",
+        "title": "Rumours",
+        "artist": "Fleetwood Mac",
+        "year": 1977,
+        "type": "lp",
+        "cover": "https://a1.mzstatic.com/r40/Music124/v4/4d/13/ba/4d13bac3-d3d5-7581-2c74-034219eadf2b/081227970949.jpg",
+        "tracks": [
+            { "code": "A1", "title": "Second Hand News", "duration": "2:42", "ytId": "SLlYUlS_Awo", "ytStart": 0 },
+            { "code": "A2", "title": "Dreams", "duration": "4:15", "ytId": "swJOIjjW69U", "ytStart": 0 },
+            { "code": "A3", "title": "Never Going Back Again", "duration": "2:02", "ytId": "0i3ZfrVY9iU", "ytStart": 0 },
+            { "code": "A4", "title": "Don't Stop", "duration": "3:10", "ytId": "0hGhl7ki3HM", "ytStart": 0 },
+            { "code": "A5", "title": "Go Your Own Way", "duration": "3:40", "ytId": "MTIkFwMuiTw", "ytStart": 0 },
+            { "code": "A6", "title": "Songbird", "duration": "3:18", "ytId": "y9Hqn8x6a8s", "ytStart": 0 },
+            { "code": "B1", "title": "The Chain", "duration": "4:27", "ytId": "xwTPvcPYaOo", "ytStart": 0 },
+            { "code": "B2", "title": "You Make Loving Fun", "duration": "3:33", "ytId": "RqjXn2NflqU", "ytStart": 0 },
+            { "code": "B3", "title": "I Don't Want To Know", "duration": "3:13", "ytId": "MLs17vZqrBg", "ytStart": 0 },
+            { "code": "B4", "title": "Oh Daddy", "duration": "3:54", "ytId": "abticFBnddk", "ytStart": 0 },
+            { "code": "B5", "title": "Gold Dust Woman", "duration": "5:13", "ytId": "-Ti1b-RRBjI", "ytStart": 0 }
+        ]
+    },
+    {
+        "id": "bad",
+        "title": "Bad",
+        "artist": "Michael Jackson",
+        "year": 1987,
+        "type": "lp",
+        "cover": "https://a1.mzstatic.com/r40/Music211/v4/d5/5f/28/d55f28f4-610c-ee81-dc16-a01cda46bbc4/886443546264.jpg",
+        "tracks": [
+            { "code": "A1", "title": "Bad", "duration": "4:06", "ytId": "-DlMoJ2V6uk", "ytStart": 0 },
+            { "code": "A2", "title": "The Way You Make Me Feel", "duration": "4:58", "ytId": "HzZ_urpj4As", "ytStart": 0 },
+            { "code": "A3", "title": "Speed Demon", "duration": "4:01", "ytId": "MCE5MfEnVXw", "ytStart": 0 },
+            { "code": "A4", "title": "Liberian Girl", "duration": "3:52", "ytId": "7UoONw5ABpE", "ytStart": 0 },
+            { "code": "A5", "title": "Just Good Friends", "duration": "4:05", "ytId": "kt27N-_3Hjs", "ytStart": 0 },
+            { "code": "B1", "title": "Another Part Of Me", "duration": "3:53", "ytId": "GeAlVg5uehc", "ytStart": 0 },
+            { "code": "B2", "title": "Man In The Mirror", "duration": "5:18", "ytId": "PivWY9wn5ps", "ytStart": 0 },
+            { "code": "B3", "title": "I Just Can't Stop Loving You", "duration": "4:23", "ytId": "GAmVuYEeSSg", "ytStart": 0 },
+            { "code": "B4", "title": "Dirty Diana", "duration": "4:52", "ytId": "yUi_S6YWjZw", "ytStart": 0 },
+            { "code": "B5", "title": "Smooth Criminal", "duration": "4:16", "ytId": "sFvENQBc-F8", "ytStart": 0 }
+        ]
+    },
+    {
+        "id": "appetite_for_destruction",
+        "title": "Appetite For Destruction",
+        "artist": "Guns N' Roses",
+        "year": 1987,
+        "type": "lp",
+        "cover": "https://a1.mzstatic.com/r40/Music125/v4/a0/4d/c4/a04dc484-03cc-02aa-fa82-5334fcb4bc16/18UMGIM24878.rgb.jpg",
+        "tracks": [
+            { "code": "G1", "title": "Welcome To The Jungle", "duration": "4:31", "ytId": "o1tj2zJ2Wvg", "ytStart": 0 },
+            { "code": "G2", "title": "It's So Easy", "duration": "3:21", "ytId": "FMbl1ntpIXQ", "ytStart": 0 },
+            { "code": "G3", "title": "Nightrain", "duration": "4:26", "ytId": "aujKauhYsgA", "ytStart": 0 },
+            { "code": "G4", "title": "Out Ta Get Me", "duration": "4:20", "ytId": "RbItpD0qAk4", "ytStart": 0 },
+            { "code": "G5", "title": "Mr. Brownstone", "duration": "3:46", "ytId": "-CmMFRr9RMo", "ytStart": 0 },
+            { "code": "G6", "title": "Paradise City", "duration": "6:46", "ytId": "Rbm6GXllBiw", "ytStart": 0 },
+            { "code": "R1", "title": "My Michelle", "duration": "3:39", "ytId": "6nhIdHpzHxM", "ytStart": 0 },
+            { "code": "R2", "title": "Think About You", "duration": "3:50", "ytId": "0bjPk-wmfRQ", "ytStart": 0 },
+            { "code": "R3", "title": "Sweet Child O' Mine", "duration": "5:55", "ytId": "1w7OgIMMRc4", "ytStart": 0 },
+            { "code": "R4", "title": "You're Crazy", "duration": "3:15", "ytId": "6PO9B83mHDI", "ytStart": 0 },
+            { "code": "R5", "title": "Anything Goes", "duration": "3:25", "ytId": "qcCl-QVfBuI", "ytStart": 0 },
+            { "code": "R6", "title": "Rocket Queen", "duration": "6:13", "ytId": "WO0OUoCDlBE", "ytStart": 0 }
+        ]
+    },
+    {
+        "id": "ten",
+        "title": "Ten",
+        "artist": "Pearl Jam",
+        "year": 1991,
+        "type": "lp",
+        "cover": "https://a1.mzstatic.com/r40/Music221/v4/e0/e1/7c/e0e17cf0-62e5-6312-f3df-2462960cc8f1/884977724745.jpg",
+        "tracks": [
+            { "code": "A1", "title": "Once", "duration": "3:51", "ytId": "3i575s4hbu0", "ytStart": 0 },
+            { "code": "A2", "title": "Even Flow", "duration": "4:53", "ytId": "CxKWTzr-k6s", "ytStart": 0 },
+            { "code": "A3", "title": "Alive", "duration": "5:40", "ytId": "qM0zINtulhM", "ytStart": 0 },
+            { "code": "A4", "title": "Why Go", "duration": "3:19", "ytId": "5QtvpucmEWA", "ytStart": 0 },
+            { "code": "A5", "title": "Black", "duration": "5:43", "ytId": "qgaRVvAKoqQ", "ytStart": 0 },
+            { "code": "A6", "title": "Jeremy", "duration": "5:18", "ytId": "MS91knuzoOA", "ytStart": 0 },
+            { "code": "B1", "title": "Oceans", "duration": "2:41", "ytId": "4WOk7UNAvOw", "ytStart": 0 },
+            { "code": "B2", "title": "Porch", "duration": "3:30", "ytId": "NWKf2VhnoHE", "ytStart": 0 },
+            { "code": "B3", "title": "Garden", "duration": "4:58", "ytId": "qXfkr65JmjQ", "ytStart": 0 },
+            { "code": "B4", "title": "Deep", "duration": "4:18", "ytId": "udIHm_b7-yw", "ytStart": 0 },
+            { "code": "B5", "title": "Release", "duration": "5:04", "ytId": "LLjFoIOyCfw", "ytStart": 0 },
+            { "code": "B6", "title": "Untitled", "duration": "3:47", "ytId": "", "ytStart": 0 }
+        ]
+    },
+    {
+        "id": "hotel_california",
+        "title": "Hotel California",
+        "artist": "Eagles",
+        "year": 1976,
+        "type": "lp",
+        "cover": "https://a1.mzstatic.com/r40/Music115/v4/88/16/2c/88162c3d-46db-8321-61f3-3a47404cfe76/075596050920.jpg",
+        "spotifyId": "2widuo17g5CEC66IbzveRu",
+        "tracks": [
+            { "code": "A1", "title": "Hotel California", "duration": "6:30" },
+            { "code": "A2", "title": "New Kid In Town", "duration": "5:04" },
+            { "code": "A3", "title": "Life In The Fast Lane", "duration": "4:46" },
+            { "code": "A4", "title": "Wasted Time", "duration": "4:55" },
+            { "code": "B1", "title": "Wasted Time (Reprise)", "duration": "1:22" },
+            { "code": "B2", "title": "Victim Of Love", "duration": "4:11" },
+            { "code": "B3", "title": "Pretty Maids All In A Row", "duration": "4:05" },
+            { "code": "B4", "title": "Try And Love Again", "duration": "5:10" },
+            { "code": "B5", "title": "The Last Resort", "duration": "7:25" }
+        ]
+    },
+    {
+        "id": "money_for_nothing",
+        "title": "Money For Nothing",
+        "artist": "Dire Straits",
+        "year": 1988,
+        "type": "lp",
+        "cover": "https://a1.mzstatic.com/r40/Music112/v4/09/4c/ec/094cecce-b9db-eee2-0763-4a9659148adf/22UMGIM34317.rgb.jpg",
+        "spotifyId": "2GU13jRAYoBgYExvDvFnUU",
+        "tracks": [
+            { "code": "A1", "title": "Sultans Of Swing", "duration": "5:55" },
+            { "code": "A2", "title": "Down To The Waterline", "duration": "4:01" },
+            { "code": "A3", "title": "Portobello Belle Live (Alternate Version)", "duration": "4:23" },
+            { "code": "B1", "title": "Twisting By The Pool (Remix)", "duration": "3:33" },
+            { "code": "B2", "title": "Tunnel Of Love", "duration": "8:12" },
+            { "code": "B3", "title": "Romeo And Juliet", "duration": "5:59" },
+            { "code": "C1", "title": "Where Do You Think You're Going?", "duration": "3:33" },
+            { "code": "C2", "title": "Walk Of Life", "duration": "4:06" },
+            { "code": "C3", "title": "Private Investigations", "duration": "5:56" },
+            { "code": "D1", "title": "Telegraph Road Live (Remix)", "duration": "13:08" },
+            { "code": "D2", "title": "Money For Nothing", "duration": "4:08" },
+            { "code": "D3", "title": "Brothers In Arms", "duration": "4:58" }
+        ]
+    },
+    {
+        "id": "wish_you_were_here",
+        "title": "Wish You Were Here",
+        "artist": "Pink Floyd",
+        "year": 1975,
+        "type": "lp",
+        "cover": "https://a1.mzstatic.com/r40/Music211/v4/aa/e0/ab/aae0ab6a-d906-a189-81bf-70b56aa43f7a/886445635843.jpg",
+        "spotifyId": "0bCAjiUamIFqKJsekOYuRw",
+        "tracks": [
+            { "code": "A1", "title": "Shine On You Crazy Diamond (Part 1-5)", "duration": "13:30" },
+            { "code": "A2", "title": "Welcome To The Machine", "duration": "7:29" },
+            { "code": "B1", "title": "Have A Cigar", "duration": "5:11" },
+            { "code": "B2", "title": "Wish You Were Here", "duration": "5:45" },
+            { "code": "B3", "title": "Shine On You Crazy Diamond (Part 6-9)", "duration": "12:20" }
+        ]
+    },
+    {
+        "id": "the_beatles_1962_1966",
+        "title": "The Beatles 1962-1966",
+        "artist": "The Beatles",
+        "year": 1973,
+        "type": "lp",
+        "cover": "https://a1.mzstatic.com/r40/Music122/v4/2a/4a/e6/2a4ae63d-ada7-fa57-6f16-02eebcf72f95/18UMGIM29770.rgb.jpg",
+        "spotifyId": "6126O4XLYAfzU3961ziahP",
+        "tracks": [
+            { "code": "A1", "title": "Love Me Do", "duration": "2:18" },
+            { "code": "A2", "title": "Please Please Me", "duration": "1:58" },
+            { "code": "A3", "title": "From Me To You", "duration": "1:56" },
+            { "code": "A4", "title": "She Loves You", "duration": "2:19" },
+            { "code": "A5", "title": "I Want To Hold Your Hand", "duration": "2:23" },
+            { "code": "A6", "title": "All My Loving", "duration": "2:04" },
+            { "code": "A7", "title": "Can't Buy Me Love", "duration": "2:10" },
+            { "code": "B1", "title": "A Hard Day's Night", "duration": "2:29" },
+            { "code": "B2", "title": "And I Love Her", "duration": "2:28" },
+            { "code": "B3", "title": "Eight Days A Week", "duration": "2:42" },
+            { "code": "B4", "title": "I Feel Fine", "duration": "2:20" },
+            { "code": "B5", "title": "Ticket To Ride", "duration": "3:03" },
+            { "code": "B6", "title": "Yesterday", "duration": "2:04" },
+            { "code": "C1", "title": "Help!", "duration": "2:33" },
+            { "code": "C2", "title": "You've Got To Hide Your Love Away", "duration": "2:06" },
+            { "code": "C3", "title": "We Can Work It Out", "duration": "2:12" },
+            { "code": "C4", "title": "Day Tripper", "duration": "2:48" },
+            { "code": "C5", "title": "Drive My Car", "duration": "2:27" },
+            { "code": "C6", "title": "Norwegian Wood (This Bird Has Flown)", "duration": "2:02" },
+            { "code": "D1", "title": "Nowhere Man", "duration": "2:40" },
+            { "code": "D2", "title": "Michelle", "duration": "2:41" },
+            { "code": "D3", "title": "In My Life", "duration": "2:22" },
+            { "code": "D4", "title": "Girl", "duration": "2:27" },
+            { "code": "D5", "title": "Paperback Writer", "duration": "2:15" },
+            { "code": "D6", "title": "Eleanor Rigby", "duration": "2:03" },
+            { "code": "D7", "title": "Yellow Submarine", "duration": "2:46" }
+        ]
+    },
+    {
+        "id": "beatles_for_sale",
+        "title": "Beatles For Sale",
+        "artist": "The Beatles",
+        "year": 1964,
+        "type": "lp",
+        "cover": "https://a1.mzstatic.com/r40/Music124/v4/79/2c/10/792c1019-387f-e819-ac8f-bc989f20a970/00602567725190.rgb.jpg",
+        "spotifyId": "1vANZV20H5B4Fk6yf7Ot9a",
+        "tracks": [
+            { "code": "A1", "title": "No Reply", "duration": "2:15" },
+            { "code": "A2", "title": "I'm A Loser", "duration": "2:30" },
+            { "code": "A3", "title": "Baby's In Black", "duration": "2:04" },
+            { "code": "A4", "title": "Rock And Roll Music", "duration": "2:31" },
+            { "code": "A5", "title": "I'll Follow The Sun", "duration": "1:48" },
+            { "code": "A6", "title": "Mr. Moonlight", "duration": "2:38" },
+            { "code": "A7", "title": "Kansas City", "duration": "2:38" },
+            { "code": "B1", "title": "Eight Days A Week", "duration": "2:43" },
+            { "code": "B2", "title": "Words Of Love", "duration": "2:04" },
+            { "code": "B3", "title": "Honey Don't", "duration": "2:57" },
+            { "code": "B4", "title": "Every Little Thing", "duration": "2:03" },
+            { "code": "B5", "title": "I Don't Want To Spoil The Party", "duration": "2:34" },
+            { "code": "B6", "title": "What You're Doing", "duration": "2:30" },
+            { "code": "B7", "title": "Everybody's Trying To Be My Baby", "duration": "2:23" }
+        ]
+    },
+    {
+        "id": "black_and_blue",
+        "title": "Black And Blue",
+        "artist": "The Rolling Stones",
+        "year": 1976,
+        "type": "lp",
+        "cover": "https://a1.mzstatic.com/r40/Music116/v4/02/de/38/02de38de-7df8-ddbc-f88b-78eb55b1fe97/08UMGIM15723.rgb.jpg",
+        "spotifyId": "2jtHqgzKfoF8uVvEosb6Jl",
+        "tracks": [
+            { "code": "A1", "title": "Hot Stuff", "duration": "5:21" },
+            { "code": "A2", "title": "Hand Of Fate", "duration": "4:28" },
+            { "code": "A3", "title": "Cherry Oh Baby", "duration": "3:54" },
+            { "code": "A4", "title": "Memory Motel", "duration": "7:06" },
+            { "code": "B1", "title": "Hey Negrita", "duration": "4:58" },
+            { "code": "B2", "title": "Melody", "duration": "5:48" },
+            { "code": "B3", "title": "Fool To Cry", "duration": "5:02" },
+            { "code": "B4", "title": "Crazy Mama", "duration": "4:32" }
+        ]
+    },
+    {
+        "id": "its_only_rock_roll",
+        "title": "It's Only Rock & Roll",
+        "artist": "The Rolling Stones",
+        "year": 1974,
+        "type": "lp",
+        "cover": "https://a1.mzstatic.com/r40/Music112/v4/50/b8/2f/50b82fdb-a3db-b284-d323-a243e1abbe34/08UMGIM15718.rgb.jpg",
+        "spotifyId": "4jCpSNa8dV40aMrHOshRdv",
+        "tracks": [
+            { "code": "A1", "title": "If You Can't Rock Me", "duration": "3:47" },
+            { "code": "A2", "title": "Ain't Too Proud To Beg", "duration": "3:32" },
+            { "code": "A3", "title": "It's Only Rock & Roll (But I Like It)", "duration": "5:08" },
+            { "code": "A4", "title": "Till The Next Goodbye", "duration": "4:39" },
+            { "code": "A5", "title": "Time Waits For No One", "duration": "6:31" },
+            { "code": "B1", "title": "Luxury", "duration": "4:30" },
+            { "code": "B2", "title": "Dance Little Sister", "duration": "4:12" },
+            { "code": "B3", "title": "If You Really Want To Be My Friend", "duration": "6:17" },
+            { "code": "B4", "title": "Short And Curlies", "duration": "2:44" },
+            { "code": "B5", "title": "Fingerprint File", "duration": "6:41" }
+        ]
+    },
+    {
+        "id": "hotel_california_single",
+        "title": "Hotel California (Single)",
+        "artist": "Eagles",
+        "year": 1977,
+        "type": "single",
+        "cover": "https://i.discogs.com/siAD8q06ui1H34LZ7Hi1kfmUZhE9zK7mRSZLvEWqRuw/rs:fit/g:sm/q:90/h:599/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIxOTE0/ODctMTQ1NjE0NzIw/NC02MTIwLmpwZWc.jpeg",
+        "spotifyId": null,
+        "tracks": [
+            { "code": "A", "title": "Hotel California", "duration": "6:08" },
+            { "code": "B", "title": "Pretty Maids All In A Row", "duration": "3:51" }
+        ]
+    },
+    {
+        "id": "el_camaron_de_la_isla_y_paco_de_lucia",
+        "title": "El Camaron De La Isla Y Paco De Lucia",
+        "artist": "El Camaron De La Isla",
+        "year": 1972,
+        "type": "ep",
+        "cover": "https://i.discogs.com/sFIjtIpw2nFZcfFpmD_2VAQEGp2BHxqpV0MiN4nCA1E/rs:fit/g:sm/q:90/h:578/w:576/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMDQ4/NTQtMTIwMDU4Mjg5/My5qcGVn.jpeg",
+        "spotifyId": null,
+        "tracks": [
+            { "code": "A1", "title": "No Quisiera Que Te Fueras", "duration": "3:23" },
+            { "code": "A2", "title": "Las Campanas También Lloran", "duration": "3:25" },
+            { "code": "B1", "title": "Canastera", "duration": "3:50" },
+            { "code": "B2", "title": "No Dudes De La Nobleza", "duration": "3:41" }
+        ]
+    },
+    {
+        "id": "que_a_mi_me_vio_de_naser",
+        "title": "Que A Mi Me Vio De \"Naser\"",
+        "artist": "El Camaron De La Isla",
+        "year": 1972,
+        "type": "ep",
+        "cover": "https://i.discogs.com/x686RzsYwleOaXsXiOHRf6rorfXyFnePWjzQm1ixfBg/rs:fit/g:sm/q:90/h:600/w:597/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMzU2/Mjk1LTE3MDEzNDM3/ODUtODYwOS5qcGVn.jpeg",
+        "spotifyId": null,
+        "tracks": [
+            { "code": "A1", "title": "Que A Mi Me Vio De \"Naser\"", "duration": "2:15" },
+            { "code": "A2", "title": "Calabosito Oscuro", "duration": "3:25" },
+            { "code": "B1", "title": "Estás Ciego \"Pa\" No Ver", "duration": "3:34" },
+            { "code": "B2", "title": "Soñaba Siempre Contigo", "duration": "1:39" }
+        ]
+    },
+    {
+        "id": "solea_granaina_tangos_fandangos",
+        "title": "Soleá / Granaína / Tangos / Fandangos",
+        "artist": "El Camaron De La Isla",
+        "year": 1970,
+        "type": "ep",
+        "cover": "https://i.discogs.com/WvUtzx7cgZhBmB3gpQlzCXgPyMA6EdUmadWkl7y33Ag/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzODcx/NDMtMTMwMzQ2NzU2/MS5qcGVn.jpeg",
+        "spotifyId": null,
+        "tracks": [
+            { "code": "A1", "title": "Cada Vez Que Nos Miramos (Soleá)", "duration": "4:08" },
+            { "code": "A2", "title": "Y No Llegaste A Quererme (Granaína)", "duration": "2:53" },
+            { "code": "B1", "title": "Ante El Altar Me Jurastes (Tangos)", "duration": "3:50" },
+            { "code": "B2", "title": "Donde Una Ermita Poner (Fandangos)", "duration": "2:30" }
+        ]
+    },
+    {
+        "id": "all_you_need_is_love",
+        "title": "All You Need Is Love",
+        "artist": "The Beatles",
+        "year": 1967,
+        "type": "single",
+        "cover": "https://i.discogs.com/pb9MYmbyQL7zS48GV5LSHSrWHkcbCeUhr8llI8xv83w/rs:fit/g:sm/q:90/h:511/w:511/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc2ODYz/ODctMTUwMTA2MTIx/NC04MTM3LmpwZWc.jpeg",
+        "spotifyId": null,
+        "tracks": [
+            { "code": "A", "title": "All You Need Is Love", "duration": "3:47" },
+            { "code": "B", "title": "Baby, You're A Rich Man", "duration": "2:55" }
+        ]
+    },
+    {
+        "id": "help!",
+        "title": "Help!",
+        "artist": "The Beatles",
+        "year": 1965,
+        "type": "ep",
+        "cover": "https://i.discogs.com/CcPgeLojasylKxJhVzsEMULDzhdVeQM7owLLaxgQnwA/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1MDkz/MDAyLTE1ODY1OTc3/ODYtOTg1My5qcGVn.jpeg",
+        "spotifyId": null,
+        "tracks": [
+            { "code": "A1", "title": "Help!", "duration": "2:18" },
+            { "code": "A2", "title": "The Night Before", "duration": "2:34" },
+            { "code": "B1", "title": "You're Going To Lose That Girl", "duration": "2:18" },
+            { "code": "B2", "title": "Another Girl", "duration": "2:05" }
+        ]
+    },
+    {
+        "id": "hey_jude_revolution",
+        "title": "Hey Jude / Revolution",
+        "artist": "The Beatles",
+        "year": 1968,
+        "type": "single",
+        "cover": "https://i.discogs.com/DqKpQh8iyz8CV1zNasWDk9Ne-ShwFCaqB04Mzv7I2u4/rs:fit/g:sm/q:90/h:500/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE2OTky/MTktMTYyNjQ2MTM5/MS0zMjAxLmpwZWc.jpeg",
+        "spotifyId": null,
+        "tracks": [
+            { "code": "A", "title": "Hey Jude", "duration": "7:08" },
+            { "code": "B", "title": "Revolution", "duration": "3:20" }
+        ]
+    },
+    {
+        "id": "i_want_to_hold_your_hand",
+        "title": "I Want To Hold Your Hand",
+        "artist": "The Beatles",
+        "year": 1964,
+        "type": "ep",
+        "cover": "https://i.discogs.com/nMNpqyXJ2Uha98un445QABDx8OrwaEGZszJ9x5fjUkQ/rs:fit/g:sm/q:90/h:596/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTgwMTI5/NjMtMTQ1MzQ4MDQy/MS04Njc0LmpwZWc.jpeg",
+        "spotifyId": null,
+        "tracks": [
+            { "code": "A1", "title": "I Want To Hold Your Hand", "duration": "2:26" },
+            { "code": "A2", "title": "This Boy", "duration": "2:19" },
+            { "code": "B1", "title": "Money", "duration": "2:47" },
+            { "code": "B2", "title": "You Really Got A Hold On Me", "duration": "3:01" }
+        ]
+    },
+    {
+        "id": "ob_la_di_ob_la_da",
+        "title": "Ob-la-di, Ob-la-da",
+        "artist": "The Beatles",
+        "year": 1969,
+        "type": "single",
+        "cover": "https://i.discogs.com/oj7sXjjPOvinam_V-T6Lz_pOCP445HXCY7M8sXabw30/rs:fit/g:sm/q:90/h:599/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE3OTk1/MTgtMTQ3NTM0NjY0/Ni04ODY4LmpwZWc.jpeg",
+        "spotifyId": null,
+        "tracks": [
+            { "code": "A", "title": "Ob-la-di, Ob-la-da", "duration": "3:08" },
+            { "code": "B", "title": "While My Guitar Gently Weeps", "duration": "4:45" }
+        ]
+    },
+    {
+        "id": "rock_and_roll_music",
+        "title": "Rock And Roll Music",
+        "artist": "The Beatles",
+        "year": 1964,
+        "type": "ep",
+        "cover": "https://i.discogs.com/mwpC4CaO0GHMFMUj7AE_h5r7n637cqNrlyH7XuVtimo/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM0MzQw/ODktMTM3NzI3NjQy/Mi02MjE2LmpwZWc.jpeg",
+        "spotifyId": null,
+        "tracks": [
+            { "code": "A1", "title": "Rock And Roll Music", "duration": "2:31" },
+            { "code": "A2", "title": "Baby's In Black", "duration": "2:04" },
+            { "code": "B1", "title": "No Reply", "duration": "2:15" },
+            { "code": "B2", "title": "I'm A Loser", "duration": "2:30" }
+        ]
+    },
+    {
+        "id": "yellow_submarine",
+        "title": "Yellow Submarine",
+        "artist": "The Beatles",
+        "year": 1966,
+        "type": "ep",
+        "cover": "https://i.discogs.com/0dUa84_2KpLaxWdOOqWMBXBevl4eASr8eNbLtFoo6Eg/rs:fit/g:sm/q:90/h:500/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2MTY2/MDEtMTYyNjQ1Nzcx/My0zMDc4LmpwZWc.jpeg",
+        "spotifyId": null,
+        "tracks": [
+            { "code": "A1", "title": "Yellow Submarine", "duration": "2:42" },
+            { "code": "A2", "title": "Taxman", "duration": "2:36" },
+            { "code": "B1", "title": "She Said She Said", "duration": "2:37" },
+            { "code": "B2", "title": "I'm Only Sleeping", "duration": "3:02" }
+        ]
+    },
+    {
+        "id": "lo_que_aletea_en_nuestras_cabezas",
+        "title": "Lo Que Aletea En Nuestras Cabezas",
+        "artist": "Robe",
+        "year": 2015,
+        "type": "lp",
+        "cover": "https://a1.mzstatic.com/r40/Music211/v4/23/cb/3f/23cb3f9f-54eb-27ee-34cd-ed29a5cdd335/8447053184769.jpg",
+        "spotifyId": "7vrBmaIDGFTdQvbrPW35ET",
+        "tracks": [
+            { "code": "A1", "title": "Un Suspiro Acompasado", "duration": "9:10" },
+            { "code": "A2", "title": "...Y Rozar Contigo", "duration": "3:23" },
+            { "code": "A3", "title": "Nana Cruel", "duration": "6:44" },
+            { "code": "A4", "title": "De Manera Urgente", "duration": "3:47" },
+            { "code": "B1", "title": "Por Ser Un Pervertido", "duration": "5:43" },
+            { "code": "B2", "title": "Ruptura Leve", "duration": "1:31" },
+            { "code": "B3", "title": "Guerrero", "duration": "6:19" },
+            { "code": "B4", "title": "Contra Todos", "duration": "7:07" }
+        ]
+    },
+    {
+        "id": "thriller",
+        "title": "Thriller",
+        "artist": "Michael Jackson",
+        "year": 1982,
+        "type": "lp",
+        "cover": "https://a1.mzstatic.com/r40/Music115/v4/32/4f/fd/324ffda2-9e51-8f6a-0c2d-c6fd2b41ac55/074643811224.jpg",
+        "spotifyId": "2ANVost0y2y52ema1E9xAZ",
+        "tracks": [
+            { "code": "A1", "title": "Wanna Be Startin' Somethin'", "duration": "6:02" },
+            { "code": "A2", "title": "Baby Be Mine", "duration": "4:20" },
+            { "code": "A3", "title": "The Girl Is Mine", "duration": "3:42" },
+            { "code": "A4", "title": "Thriller", "duration": "5:57" },
+            { "code": "B1", "title": "Beat It", "duration": "4:17" },
+            { "code": "B2", "title": "Billie Jean", "duration": "4:57" },
+            { "code": "B3", "title": "Human Nature", "duration": "4:05" },
+            { "code": "B4", "title": "P.Y.T. (Pretty Young Thing)", "duration": "3:58" },
+            { "code": "B5", "title": "The Lady In My Life", "duration": "4:57" }
+        ]
+    },
+    {
+        "id": "yo_minoria_absoluta",
+        "title": "Yo, Minoría Absoluta",
+        "artist": "Extremoduro",
+        "year": 2002,
+        "type": "lp",
+        "cover": "https://a1.mzstatic.com/r40/Music124/v4/b2/1d/cf/b21dcf7a-87f3-4c61-4825-658bf095553f/809274456564.jpg",
+        "spotifyId": "3FgvMxabfL5UtlcPzASEhh",
+        "tracks": [
+            { "code": "A1", "title": "A Fuego", "duration": "5:23" },
+            { "code": "A2", "title": "La Vereda De La Puerta De Atrás", "duration": "4:03" },
+            { "code": "A3", "title": "Hoy Te La Meto Hasta Las Orejas", "duration": "3:42" },
+            { "code": "A4", "title": "Standby", "duration": "3:27" },
+            { "code": "A5", "title": "Menamoro", "duration": "3:09" },
+            { "code": "B1", "title": "Luce La Oscuridad", "duration": "3:51" },
+            { "code": "B2", "title": "Cerca Del Suelo", "duration": "4:41" },
+            { "code": "B3", "title": "Puta", "duration": "5:22" },
+            { "code": "B4", "title": "Buitre No Come Alpiste", "duration": "4:16" },
+            { "code": "B5", "title": "La Vieja (Canción Sórdida)", "duration": "4:43" }
+        ]
+    },
+    {
+        "id": "rock_transgresivo",
+        "title": "Rock Transgresivo",
+        "artist": "Extremoduro",
+        "year": 1994,
+        "type": "lp",
+        "cover": "https://a1.mzstatic.com/r40/Music124/v4/08/21/8f/08218fc5-49a1-6fd3-5260-ad9a60137966/dj.wzynrreg.jpg",
+        "spotifyId": "4f7hfg6zPldUQf9DY4ihqq",
+        "tracks": [
+            { "code": "A1", "title": "Extremaydura", "duration": "3:17" },
+            { "code": "A2", "title": "Emparedado", "duration": "4:14" },
+            { "code": "A3", "title": "Decidí", "duration": "2:30" },
+            { "code": "A4", "title": "Romperás", "duration": "3:31" },
+            { "code": "A5", "title": "Arrebato", "duration": "3:23" },
+            { "code": "B1", "title": "Jesucristo García", "duration": "4:50" },
+            { "code": "B2", "title": "La Hoguera", "duration": "3:56" },
+            { "code": "B3", "title": "Adiós Abanico, Que Llegó El Aire", "duration": "3:37" },
+            { "code": "B4", "title": "Te Juzgarán Solo Por Tus Errores (Yo No)", "duration": "2:59" },
+            { "code": "B5", "title": "Caballero Andante (¡No Me Dejeis Asiii!)", "duration": "2:32" }
+        ]
+    },
+    {
+        "id": "material_defectuoso",
+        "title": "Material Defectuoso",
+        "artist": "Extremoduro",
+        "year": 2011,
+        "type": "lp",
+        "cover": "https://a1.mzstatic.com/r40/Music124/v4/c5/68/7f/c5687f87-d9b8-2a4b-d356-c70b7c34e6ea/mzi.reuhhldv.jpg",
+        "spotifyId": "3JFryzZ2dByJ7Z2Ik2fVua",
+        "tracks": [
+            { "code": "A1", "title": "Desarraigo", "duration": "7:37" },
+            { "code": "A2", "title": "Mi Espíritu Imperecedero", "duration": "5:42" },
+            { "code": "A3", "title": "Otra Inútil Canción Para La Paz", "duration": "6:11" },
+            { "code": "B1", "title": "Si Te Vas...", "duration": "8:36" },
+            { "code": "B2", "title": "Tango Suicida", "duration": "8:07" },
+            { "code": "B3", "title": "Calle Esperanza S/n", "duration": "7:06" }
+        ]
+    },
+    {
+        "id": "the_wall",
+        "title": "The Wall",
+        "artist": "Pink Floyd",
+        "year": 1979,
+        "type": "lp",
+        "cover": "https://a1.mzstatic.com/r40/Music221/v4/3e/17/ec/3e17ec6d-f980-c64f-19e0-a6fd8bbf0c10/886445635850.jpg",
+        "spotifyId": "5Dbax7G8SWrP9xyzkOvy2F",
+        "tracks": [
+            { "code": "A1", "title": "In The Flesh?", "duration": "3:18" },
+            { "code": "A2", "title": "The Thin Ice", "duration": "2:22" },
+            { "code": "A3", "title": "Another Brick In The Wall Part 1", "duration": "3:12" },
+            { "code": "A4", "title": "The Happiest Days Of Our Lives", "duration": "1:38" },
+            { "code": "A5", "title": "Another Brick In The Wall Part 2", "duration": "3:52" },
+            { "code": "A6", "title": "Mother", "duration": "5:17" },
+            { "code": "B1", "title": "Goodbye Blue Sky", "duration": "2:43" },
+            { "code": "B2", "title": "Empty Spaces", "duration": "2:02" },
+            { "code": "B3", "title": "Young Lust", "duration": "3:27" },
+            { "code": "B4", "title": "One Of My Turns", "duration": "3:26" },
+            { "code": "B5", "title": "Don't Leave Me Now", "duration": "4:14" },
+            { "code": "B6", "title": "Another Brick In The Wall Part 3", "duration": "1:17" },
+            { "code": "B7", "title": "Goodbye Cruel World", "duration": "0:59" },
+            { "code": "C1", "title": "Hey You", "duration": "4:32" },
+            { "code": "C2", "title": "Is There Anybody Out There?", "duration": "2:41" },
+            { "code": "C3", "title": "Nobody Home", "duration": "3:35" },
+            { "code": "C4", "title": "Vera", "duration": "1:16" },
+            { "code": "C5", "title": "Bring The Boys Back Home", "duration": "1:16" },
+            { "code": "C6", "title": "Comfortably Numb", "duration": "6:07" },
+            { "code": "D1", "title": "The Show Must Go On", "duration": "1:36" },
+            { "code": "D2", "title": "In The Flesh", "duration": "4:06" },
+            { "code": "D3", "title": "Run Like Hell", "duration": "4:14" },
+            { "code": "D4", "title": "Waiting For The Worms", "duration": "3:50" },
+            { "code": "D5", "title": "Stop", "duration": "0:29" },
+            { "code": "D6", "title": "The Trial", "duration": "5:09" },
+            { "code": "D7", "title": "Outside The Wall", "duration": "1:39" }
+        ]
+    },
+    {
+        "id": "breakfast_in_america",
+        "title": "Breakfast In America",
+        "artist": "Supertramp",
+        "year": 1979,
+        "type": "lp",
+        "cover": "https://a1.mzstatic.com/r40/Music114/v4/10/bd/ee/10bdee2b-e13b-b1c2-b264-484e37f5208e/10UMGIM21523.rgb.jpg",
+        "spotifyId": "1G40QqbxYWEeelWqf4hpbI",
+        "tracks": [
+            { "code": "A1", "title": "Gone Hollywood", "duration": "5:14" },
+            { "code": "A2", "title": "The Logical Song", "duration": "4:08" },
+            { "code": "A3", "title": "Goodbye Stranger", "duration": "5:47" },
+            { "code": "A4", "title": "Breakfast In America", "duration": "2:37" },
+            { "code": "A5", "title": "Oh Darling", "duration": "4:01" },
+            { "code": "B1", "title": "Take The Long Way Home", "duration": "5:02" },
+            { "code": "B2", "title": "Lord Is It Mine", "duration": "4:04" },
+            { "code": "B3", "title": "Just Another Nervous Wreck", "duration": "4:22" },
+            { "code": "B4", "title": "Casual Conversations", "duration": "2:58" },
+            { "code": "B5", "title": "Child Of Vision", "duration": "7:23" }
+        ]
+    },
+    {
+        "id": "dark_side_of_the_moon",
+        "title": "The Dark Side Of The Moon",
+        "artist": "Pink Floyd",
+        "year": 1973,
+        "type": "lp",
+        "cover": "https://a1.mzstatic.com/r40/Music211/v4/49/86/18/49861852-877b-0992-fa27-58b25fa032b5/196589805232.jpg",
+        "spotifyId": "4LH4d3cOWNNsVw41Gqt2kv",
+        "tracks": [
+            { "code": "A1", "title": "Speak To Me", "duration": "1:25" },
+            { "code": "A2", "title": "Breathe (In The Air)", "duration": "2:58" },
+            { "code": "A3", "title": "On The Run", "duration": "3:39" },
+            { "code": "A4", "title": "Time", "duration": "6:43" },
+            { "code": "A5", "title": "The Great Gig In The Sky", "duration": "4:38" },
+            { "code": "B1", "title": "Money", "duration": "6:25" },
+            { "code": "B2", "title": "Us And Them", "duration": "7:50" },
+            { "code": "B3", "title": "Any Colour You Like", "duration": "3:20" },
+            { "code": "B4", "title": "Brain Damage", "duration": "3:45" },
+            { "code": "B5", "title": "Eclipse", "duration": "1:55" }
+        ]
+    },
+    {
+        "id": "greatest_hits_queen",
+        "title": "Greatest Hits",
+        "artist": "Queen",
+        "year": 1981,
+        "type": "lp",
+        "cover": "https://a1.mzstatic.com/r40/Music221/v4/d8/cf/d0/d8cfd065-a14c-ca7c-1507-8fedc26fa77f/14UMGIM42816.rgb.jpg",
+        "spotifyId": "3VWrUk4vBznMYXGMPc7dRB",
+        "tracks": [
+            { "code": "A1", "title": "Bohemian Rhapsody", "duration": "5:50" },
+            { "code": "A2", "title": "Another One Bites The Dust", "duration": "2:32" },
+            { "code": "A3", "title": "Killer Queen", "duration": "2:58" },
+            { "code": "A4", "title": "Fat Bottomed Girls", "duration": "3:16" },
+            { "code": "B1", "title": "Bicycle Race", "duration": "2:57" },
+            { "code": "B2", "title": "You're My Best Friend", "duration": "2:48" },
+            { "code": "B3", "title": "Don't Stop Me Now", "duration": "3:25" },
+            { "code": "B4", "title": "Save Me", "duration": "3:44" },
+            { "code": "C1", "title": "Crazy Little Thing Called Love", "duration": "2:40" },
+            { "code": "C2", "title": "Somebody To Love", "duration": "4:51" },
+            { "code": "C3", "title": "Now I'm Here", "duration": "4:10" },
+            { "code": "C4", "title": "Good Old Fashioned Lover Boy", "duration": "2:52" },
+            { "code": "D1", "title": "Play The Game", "duration": "3:21" },
+            { "code": "D2", "title": "Flash", "duration": "2:45" },
+            { "code": "D3", "title": "Seven Seas Of Rhye", "duration": "2:45" },
+            { "code": "D4", "title": "We Will Rock You", "duration": "2:00" },
+            { "code": "D5", "title": "We Are The Champions", "duration": "2:57" }
+        ]
+    },
+    {
+        "id": "a_new_world_record",
+        "title": "A New World Record",
+        "artist": "Electric Light Orchestra",
+        "year": 1976,
+        "type": "lp",
+        "cover": "https://a1.mzstatic.com/r40/Music221/v4/a8/96/19/a8961914-9909-0cac-4817-87dd33389ae9/886445593907.jpg",
+        "spotifyId": "7a35UzxXYuKQGMGImyB0Un",
+        "tracks": [
+            { "code": "A1", "title": "Tightrope", "duration": "5:00" },
+            { "code": "A2", "title": "Telephone Line", "duration": "4:38" },
+            { "code": "A3", "title": "Rockaria!", "duration": "3:12" },
+            { "code": "A4", "title": "Mission (A World Record)", "duration": "4:24" },
+            { "code": "B1", "title": "So Fine", "duration": "3:55" },
+            { "code": "B2", "title": "Livin' Thing", "duration": "3:31" },
+            { "code": "B3", "title": "Above The Clouds", "duration": "2:16" },
+            { "code": "B4", "title": "Do Ya", "duration": "3:45" },
+            { "code": "B5", "title": "Shangri-La", "duration": "5:34" }
+        ]
+    },
+    {
+        "id": "number_of_the_beast",
+        "title": "The Number Of The Beast",
+        "artist": "Iron Maiden",
+        "year": 1982,
+        "type": "lp",
+        "cover": "https://a1.mzstatic.com/r40/Music115/v4/d2/3f/04/d23f0468-dfa6-45aa-afb1-a3238d5e4f58/825646129232.jpg",
+        "spotifyId": "5S3gls8Kjn8KVmqlIDEBbO",
+        "tracks": [
+            { "code": "A1", "title": "Invaders", "duration": "3:20" },
+            { "code": "A2", "title": "Children Of The Damned", "duration": "4:34" },
+            { "code": "A3", "title": "The Prisoner", "duration": "5:34" },
+            { "code": "A4", "title": "22, Acacia Avenue", "duration": "6:34" },
+            { "code": "B1", "title": "The Number Of The Beast", "duration": "4:25" },
+            { "code": "B2", "title": "Run To The Hills", "duration": "3:50" },
+            { "code": "B3", "title": "Gangland", "duration": "3:46" },
+            { "code": "B4", "title": "Hallowed Be Thy Name", "duration": "7:08" }
+        ]
+    },
+    {
+        "id": "eye_in_the_sky",
+        "title": "Eye In The Sky",
+        "artist": "The Alan Parsons Project",
+        "year": 1982,
+        "type": "lp",
+        "cover": "https://a1.mzstatic.com/r40/Music115/v4/fe/c4/46/fec446f8-30e6-b526-0f71-58e7ff0b17f5/886446379685.jpg",
+        "spotifyId": "71Y6kburF8k1qyHycovHy8",
+        "tracks": [
+            { "code": "A1", "title": "Sirius - Instrumental", "duration": "1:48" },
+            { "code": "A2", "title": "Eye In The Sky", "duration": "4:33" },
+            { "code": "A3", "title": "Children Of The Moon", "duration": "4:49" },
+            { "code": "A4", "title": "Gemini", "duration": "2:09" },
+            { "code": "A5", "title": "Silence And I", "duration": "7:17" },
+            { "code": "B1", "title": "You're Gonna Get Your Fingers Burned", "duration": "4:19" },
+            { "code": "B2", "title": "Psychobabble", "duration": "4:50" },
+            { "code": "B3", "title": "Mammagamma - Instrumental", "duration": "3:34" },
+            { "code": "B4", "title": "Step By Step", "duration": "3:52" },
+            { "code": "B5", "title": "Old And Wise", "duration": "4:52" }
+        ]
+    },
+    {
+        "id": "grandes_exitos_fracasos_ep2",
+        "title": "Grandes Éxitos Y Fracasos (Episodio 2º)",
+        "artist": "Extremoduro",
+        "year": 2005,
+        "type": "lp",
+        "cover": "https://a1.mzstatic.com/r40/Music/y2005/m08/d03/h11/mzi.bhacsvgc.jpg",
+        "spotifyId": "2MDLi3MxJ3LqVcYT4hIFTS",
+        "tracks": [
+            { "code": "A1", "title": "Papel Secante", "duration": "4:56" },
+            { "code": "A2", "title": "Amor Castúo", "duration": "3:27" },
+            { "code": "A3", "title": "Decidí", "duration": "2:33" },
+            { "code": "A4", "title": "Quemando Tus Recuerdos", "duration": "5:31" },
+            { "code": "B1", "title": "El Duende Del Parque", "duration": "4:16" },
+            { "code": "B2", "title": "Deltoya", "duration": "5:32" },
+            { "code": "B3", "title": "Bribribliblí", "duration": "3:19" },
+            { "code": "B4", "title": "Bulerías De La Sangre Caliente", "duration": "3:37" },
+            { "code": "B5", "title": "De Acero", "duration": "3:42" },
+            { "code": "C1", "title": "Historias Prohibidas", "duration": "2:23" },
+            { "code": "C2", "title": "Estado Policial", "duration": "3:55" },
+            { "code": "C3", "title": "Arrebato", "duration": "3:41" },
+            { "code": "C4", "title": "Salir", "duration": "5:24" },
+            { "code": "C5", "title": "Volando Sólo", "duration": "3:31" },
+            { "code": "D1", "title": "Buscando Una Luna", "duration": "4:11" },
+            { "code": "D2", "title": "Prometeo", "duration": "3:31" },
+            { "code": "D3", "title": "Puta", "duration": "5:23" },
+            { "code": "D4", "title": "Standby", "duration": "3:36" }
+        ]
+    },
+    {
+        "id": "forever_young",
+        "title": "Forever Young",
+        "artist": "Alphaville",
+        "year": 1984,
+        "type": "lp",
+        "cover": "https://a1.mzstatic.com/r40/Music116/v4/97/85/e9/9785e996-e16c-f933-1c5c-1f7c69882757/5054197172182.jpg",
+        "spotifyId": "2256qKBSQdt53T5dz4Kdcs",
+        "tracks": [
+            { "code": "A1", "title": "A Victory Of Love", "duration": "4:14" },
+            { "code": "A2", "title": "Summer In Berlin", "duration": "4:45" },
+            { "code": "A3", "title": "Big In Japan", "duration": "4:43" },
+            { "code": "A4", "title": "To Germany With Love", "duration": "4:15" },
+            { "code": "A5", "title": "Fallen Angel", "duration": "3:55" },
+            { "code": "B1", "title": "Forever Young", "duration": "3:45" },
+            { "code": "B2", "title": "In The Mood", "duration": "4:29" },
+            { "code": "B3", "title": "Sounds Like A Melody", "duration": "4:42" },
+            { "code": "B4", "title": "Lies", "duration": "3:32" },
+            { "code": "B5", "title": "The Jet Set", "duration": "4:52" }
+        ]
+    },
+    {
+        "id": "led_zeppelin_iv",
+        "title": "Untitled (IV)",
+        "artist": "Led Zeppelin",
+        "year": 1971,
+        "type": "lp",
+        "cover": "https://a1.mzstatic.com/r40/Music115/v4/5c/15/9b/5c159b27-95ca-b9a7-84e3-28e795fffd39/dj.kvkrpptq.jpg",
+        "spotifyId": "5EyIDBAqhnlkAHqvPRwdbX",
+        "tracks": [
+            { "code": "A1", "title": "Black Dog", "duration": "4:55" },
+            { "code": "A2", "title": "Rock And Roll", "duration": "3:40" },
+            { "code": "A3", "title": "The Battle Of Evermore", "duration": "5:38" },
+            { "code": "A4", "title": "Stairway To Heaven", "duration": "7:55" },
+            { "code": "B1", "title": "Misty Mountain Hop", "duration": "4:39" },
+            { "code": "B2", "title": "Four Sticks", "duration": "4:49" },
+            { "code": "B3", "title": "Going To California", "duration": "3:36" },
+            { "code": "B4", "title": "When The Levee Breaks", "duration": "7:08" }
+        ]
+    },
+    {
+        "id": "ride_the_lightning",
+        "title": "Ride The Lightning",
+        "artist": "Metallica",
+        "year": 1984,
+        "type": "lp",
+        "cover": "https://a1.mzstatic.com/r40/Music112/v4/46/ed/18/46ed18f7-012c-58f0-33b8-95914a2197b2/15UMGIM25536.rgb.jpg",
+        "spotifyId": "05DePtm7oQMdL3Uzw2Jmsc",
+        "tracks": [
+            { "code": "A1", "title": "Fight Fire With Fire", "duration": "4:44" },
+            { "code": "A2", "title": "Ride The Lightning", "duration": "6:36" },
+            { "code": "A3", "title": "For Whom The Bell Tolls", "duration": "5:10" },
+            { "code": "A4", "title": "Fade To Black", "duration": "6:56" },
+            { "code": "B1", "title": "Trapped Under Ice", "duration": "4:03" },
+            { "code": "B2", "title": "Escape", "duration": "4:23" },
+            { "code": "B3", "title": "Creeping Death", "duration": "6:36" },
+            { "code": "B4", "title": "The Call Of Ktulu", "duration": "8:52" }
+        ]
+    },
+    {
+        "id": "by_the_way",
+        "title": "By The Way",
+        "artist": "Red Hot Chili Peppers",
+        "year": 2002,
+        "type": "lp",
+        "cover": "https://a1.mzstatic.com/r40/Music115/v4/c1/7f/25/c17f25d9-c5fa-5a70-5e76-122caf132bc1/093624931966.jpg",
+        "spotifyId": "1jWKVgnHX8nwR551hQNx5K",
+        "tracks": [
+            { "code": "A1", "title": "By The Way", "duration": "3:37" },
+            { "code": "A2", "title": "Universally Speaking", "duration": "4:19" },
+            { "code": "A3", "title": "This Is The Place", "duration": "4:17" },
+            { "code": "A4", "title": "Dosed", "duration": "5:12" },
+            { "code": "B1", "title": "Don't Forget Me", "duration": "4:37" },
+            { "code": "B2", "title": "The Zephyr Song", "duration": "3:52" },
+            { "code": "B3", "title": "Can't Stop", "duration": "4:29" },
+            { "code": "B4", "title": "I Could Die For You", "duration": "3:13" },
+            { "code": "C1", "title": "Midnight", "duration": "4:55" },
+            { "code": "C2", "title": "Throw Away Your Television", "duration": "3:44" },
+            { "code": "C3", "title": "Cabron", "duration": "3:38" },
+            { "code": "C4", "title": "Tear", "duration": "5:17" },
+            { "code": "D1", "title": "On Mercury", "duration": "3:28" },
+            { "code": "D2", "title": "Minor Thing", "duration": "3:37" },
+            { "code": "D3", "title": "Warm Tape", "duration": "4:16" },
+            { "code": "D4", "title": "Venice Queen", "duration": "6:07" }
+        ]
+    },
+    {
+        "id": "fitografia",
+        "title": "Fitografía",
+        "artist": "Fito & Fitipaldis",
+        "year": 2017,
+        "type": "lp",
+        "cover": "https://a1.mzstatic.com/r40/Music114/v4/a6/39/e4/a639e420-6331-45bf-712a-f63ca96cd3cd/190295730383.jpg",
+        "spotifyId": "4zSihveMwgYWHA5Bkw29Ug",
+        "tracks": [
+            { "code": "A1", "title": "Entre dos mares", "duration": "4:40" },
+            { "code": "A2", "title": "Por la boca vive el pez", "duration": "4:29" },
+            { "code": "A3", "title": "Me equivocaría otra vez", "duration": "5:06" },
+            { "code": "A4", "title": "Acabo de llegar", "duration": "6:15" },
+            { "code": "A5", "title": "Antes de que cuente diez", "duration": "4:45" },
+            { "code": "B1", "title": "Me acordé de ti", "duration": "4:05" },
+            { "code": "B2", "title": "Entre la espada y la pared", "duration": "4:52" },
+            { "code": "B3", "title": "Lo que sobra de mí", "duration": "3:40" },
+            { "code": "B4", "title": "Garabatos", "duration": "4:40" },
+            { "code": "C1", "title": "Rojitas las orejas", "duration": "3:44" },
+            { "code": "C2", "title": "Trozos de cristal (feat. Robe)", "duration": "3:40" },
+            { "code": "C3", "title": "Mirando al cielo", "duration": "4:12" },
+            { "code": "C4", "title": "Al mar", "duration": "6:08" },
+            { "code": "C5", "title": "Para toda la vida", "duration": "3:15" },
+            { "code": "C6", "title": "A la luna se le ve el ombligo", "duration": "4:50" },
+            { "code": "D1", "title": "La casa por el tejado", "duration": "4:27" },
+            { "code": "D2", "title": "Soldadito marinero", "duration": "4:14" },
+            { "code": "D3", "title": "Siempre estoy soñando", "duration": "4:08" },
+            { "code": "D4", "title": "Whisky barato", "duration": "3:18" },
+            { "code": "D5", "title": "Cerca de las vías (En directo Teatro Arriaga)", "duration": "3:06" }
+        ]
+    }
+]

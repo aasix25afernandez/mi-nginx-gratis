@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel Admin · Colección Vinilos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Unbounded:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="admin.css">
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('./sw.js').catch(() => {});
+        }
+    </script>
+</head>
+<body>
+
+    <!-- PANTALLA DE LOGIN -->
+    <div id="login-screen" class="login-screen">
+        <div class="login-box">
+            <div class="login-logo">AFS</div>
+            <h1 class="login-title">Panel Admin</h1>
+            <p class="login-sub">Colección de Vinilos</p>
+            <div class="login-form">
+                <div class="input-group">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" id="login-password" placeholder="Contraseña de acceso" autocomplete="current-password">
+                </div>
+                <div class="login-error" id="login-error">Contraseña incorrecta</div>
+                <button class="login-btn" id="login-btn">
+                    <span>Entrar</span>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+            </div>
+            <a href="index.html" class="login-back">
+                <i class="fa-solid fa-arrow-left"></i> Volver a la colección
+            </a>
+        </div>
+    </div>
+
+    <!-- PANEL PRINCIPAL (oculto hasta login) -->
+    <div id="admin-panel" class="admin-panel hidden">
+
+        <!-- SIDEBAR -->
+        <aside class="sidebar">
+            <div class="sidebar-logo">
+                <span class="logo-text">AFS</span>
+                <span class="logo-sub">Admin</span>
+            </div>
+            <nav class="sidebar-nav">
+                <button class="nav-item active" data-view="list">
+                    <i class="fa-solid fa-record-vinyl"></i>
+                    <span>Colección</span>
+                </button>
+                <button class="nav-item" data-view="add">
+                    <i class="fa-solid fa-plus-circle"></i>
+                    <span>Añadir disco</span>
+                </button>
+                <button class="nav-item" data-view="export">
+                    <i class="fa-solid fa-file-export"></i>
+                    <span>Exportar JSON</span>
+                </button>
+            </nav>
+            <div class="sidebar-footer">
+                <div class="sidebar-stats" id="sidebar-stats"></div>
+                <a href="index.html" class="sidebar-link">
+                    <i class="fa-solid fa-eye"></i> Ver web
+                </a>
+                <button class="sidebar-logout" id="logout-btn">
+                    <i class="fa-solid fa-right-from-bracket"></i> Cerrar sesión
+                </button>
+            </div>
+        </aside>
+
+        <!-- CONTENIDO PRINCIPAL -->
+        <main class="admin-main">
+
+            <!-- VISTA: LISTA DE ÁLBUMES -->
+            <section class="view" id="view-list">
+                <div class="view-header">
+                    <div>
+                        <h2 class="view-title">Colección</h2>
+                        <p class="view-desc" id="list-count"></p>
+                    </div>
+                    <div class="view-header-actions">
+                        <div class="search-box">
+                            <i class="fa-solid fa-search"></i>
+                            <input type="text" id="admin-search" placeholder="Buscar...">
+                        </div>
+                        <select id="admin-filter-type" class="admin-select">
+                            <option value="">Todos los formatos</option>
+                            <option value="lp">LP</option>
+                            <option value="ep">EP</option>
+                            <option value="single">Single</option>
+                            <option value="cd">CD</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="album-table-wrap">
+                    <table class="album-table">
+                        <thead>
+                            <tr>
+                                <th>Portada</th>
+                                <th>Título</th>
+                                <th>Artista</th>
+                                <th>Año</th>
+                                <th>Formato</th>
+                                <th>Pistas</th>
+                                <th>Acciones</th>
+                            </tr>
+                        </thead>
+                        <tbody id="album-tbody"></tbody>
+                    </table>
+                </div>
+            </section>
+
+            <!-- VISTA: AÑADIR / EDITAR ÁLBUM -->
+            <section class="view hidden" id="view-add">
+                <div class="view-header">
+                    <div>
+                        <h2 class="view-title" id="form-title">Añadir disco</h2>
+                        <p class="view-desc">Completa todos los campos obligatorios</p>
+                    </div>
+                    <button class="btn-secondary" id="cancel-edit">
+                        <i class="fa-solid fa-xmark"></i> Cancelar
+                    </button>
+                </div>
+
+                <div class="album-form">
+                    <!-- DATOS BÁSICOS -->
+                    <div class="form-section">
+                        <h3 class="form-section-title"><i class="fa-solid fa-info-circle"></i> Datos básicos</h3>
+                        <div class="form-grid">
+                            <div class="form-group">
+                                <label>ID único <span class="req">*</span></label>
+                                <input type="text" id="f-id" placeholder="ej: back_in_black" autocomplete="off">
+                                <small>Sin espacios, solo letras, números y guiones bajos</small>
+                            </div>
+                            <div class="form-group">
+                                <label>Título <span class="req">*</span></label>
+                                <input type="text" id="f-title" placeholder="Nombre del álbum">
+                            </div>
+                            <div class="form-group">
+                                <label>Artista <span class="req">*</span></label>
+                                <input type="text" id="f-artist" placeholder="Nombre del artista / banda">
+                            </div>
+                            <div class="form-group">
+                                <label>Año de lanzamiento <span class="req">*</span></label>
+                                <input type="number" id="f-year" placeholder="ej: 1980" min="1900" max="2099">
+                            </div>
+                            <div class="form-group">
+                                <label>Formato <span class="req">*</span></label>
+                                <select id="f-type">
+                                    <option value="">Seleccionar...</option>
+                                    <option value="lp">LP</option>
+                                    <option value="ep">EP</option>
+                                    <option value="single">Single</option>
+                                    <option value="cd">CD</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label>Spotify ID <span class="opt">(opcional)</span></label>
+                                <input type="text" id="f-spotify" placeholder="ej: 6mUdeDZCsExyJLMdAfDuwh">
+                                <small>El ID al final de la URL de Spotify del álbum</small>
+                            </div>
+                        </div>
+                        <div class="form-group full-width">
+                            <label>URL de la portada <span class="req">*</span></label>
+                            <div class="cover-input-wrap">
+                                <input type="url" id="f-cover" placeholder="https://ejemplo.com/portada.jpg">
+                                <button type="button" class="btn-preview" id="preview-cover-btn">
+                                    <i class="fa-solid fa-image"></i> Preview
+                                </button>
+                            </div>
+                            <div class="cover-preview" id="cover-preview">
+                                <img id="cover-preview-img" src="" alt="Preview portada">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- TRACKLIST -->
+                    <div class="form-section">
+                        <div class="section-header-row">
+                            <h3 class="form-section-title"><i class="fa-solid fa-list-ol"></i> Tracklist</h3>
+                            <button type="button" class="btn-add-track" id="add-track-btn">
+                                <i class="fa-solid fa-plus"></i> Añadir pista
+                            </button>
+                        </div>
+                        <div class="tracks-help">
+                            <strong>Cara/Código:</strong> A1, A2, B1, B2… para LP/EP · 1, 2, 3… para CD · A, B para Single
+                        </div>
+                        <div id="tracks-container"></div>
+                    </div>
+
+                    <!-- BOTONES GUARDAR -->
+                    <div class="form-actions">
+                        <button type="button" class="btn-cancel" id="cancel-edit-2">Cancelar</button>
+                        <button type="button" class="btn-save" id="save-album-btn">
+                            <i class="fa-solid fa-floppy-disk"></i>
+                            <span id="save-btn-text">Guardar disco</span>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- VISTA: EXPORTAR -->
+            <section class="view hidden" id="view-export">
+                <div class="view-header">
+                    <div>
+                        <h2 class="view-title">Exportar JSON</h2>
+                        <p class="view-desc">Descarga el archivo albums.json actualizado para subir a tu servidor</p>
+                    </div>
+                </div>
+                <div class="export-panel">
+                    <div class="export-info">
+                        <i class="fa-solid fa-circle-info"></i>
+                        <div>
+                            <p>Los cambios que hagas desde este panel se guardan <strong>en el navegador</strong> (localStorage). Para que sean permanentes en tu web, descarga el archivo y <strong>súbelo a tu servidor</strong> reemplazando el <code>albums.json</code> actual.</p>
+                        </div>
+                    </div>
+                    <div class="export-steps">
+                        <div class="export-step">
+                            <span class="step-num">1</span>
+                            <p>Añade o edita los discos desde el panel</p>
+                        </div>
+                        <div class="export-step">
+                            <span class="step-num">2</span>
+                            <p>Descarga el JSON actualizado con el botón de abajo</p>
+                        </div>
+                        <div class="export-step">
+                            <span class="step-num">3</span>
+                            <p>Sube el archivo a tu servidor (DonDominio → Administrador de archivos) reemplazando <code>coleccion/albums.json</code></p>
+                        </div>
+                        <div class="export-step">
+                            <span class="step-num">4</span>
+                            <p>Recarga la web. ¡Listo!</p>
+                        </div>
+                    </div>
+                    <div class="export-actions">
+                        <button class="btn-export-json" id="download-json-btn">
+                            <i class="fa-solid fa-download"></i>
+                            Descargar albums.json
+                        </button>
+                        <button class="btn-export-secondary" id="reset-local-btn">
+                            <i class="fa-solid fa-rotate-left"></i>
+                            Restaurar datos del servidor
+                        </button>
+                    </div>
+                    <div class="json-preview-wrap">
+                        <div class="json-preview-header">
+                            <span>Vista previa del JSON</span>
+                            <button class="btn-copy-json" id="copy-json-btn">
+                                <i class="fa-solid fa-copy"></i> Copiar
+                            </button>
+                        </div>
+                        <pre id="json-preview" class="json-preview"></pre>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+    <!-- MODAL DE CONFIRMACIÓN -->
+    <div class="confirm-overlay hidden" id="confirm-overlay">
+        <div class="confirm-box">
+            <div class="confirm-icon"><i class="fa-solid fa-triangle-exclamation"></i></div>
+            <h3 id="confirm-title">¿Eliminar disco?</h3>
+            <p id="confirm-msg"></p>
+            <div class="confirm-actions">
+                <button class="btn-secondary" id="confirm-cancel">Cancelar</button>
+                <button class="btn-danger" id="confirm-ok">Eliminar</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- TOAST -->
+    <div class="toast hidden" id="toast">
+        <i class="fa-solid fa-check-circle"></i>
+        <span id="toast-msg"></span>
+    </div>
+
+    <script src="admin.js"></script>
+</body>
+</html>
